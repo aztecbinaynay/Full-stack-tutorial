@@ -3,7 +3,7 @@ divs use background-color as attribute
 to change the colors */
 
 body {
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .container {
@@ -52,11 +52,33 @@ p {
   color: rgb(0, 0, 0);
   font-family: "Arial Narrow", Arial, sans-serif;
   margin-bottom: 55px;
+  line-height: 28pt;
   /* text-align: justify; */
 }
 
-a {
-  color: rgb(238, 231, 129);
+.TIP {
+  color: #080a09;
+  text-decoration: none;
+  background-color: #f2ec1a;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.TIP:hover {
+  color: #f2ec1a;
+  background-color: #080a09;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.registration {
+  color: white;
   background-color: #4079c4;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 15px;
@@ -68,7 +90,7 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+.registration:hover {
   background-color: #1364a7;
 }
 
