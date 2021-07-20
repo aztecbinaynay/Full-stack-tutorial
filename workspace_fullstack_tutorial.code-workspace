@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\Computational Thinking with Pyhon"
+    },
+    {
+      "path": "..\\Data Analysis and Tools"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Full-stack tutorial",
+    "liveServer.settings.port": 5501,
+    "jupyter.jupyterServerType": "local",
+    "python.pythonPath": "c:\\Users\\core i5\\Desktop\\GitHub\\Computational Thinking with Pyhon\\.pyvenv\\Scripts\\python.exe",
+    "LivePreview.multiroot.serverWorkspace": "c:\\Users\\core i5\\Desktop\\GitHub\\Full-stack tutorial"
+  },
+  "extensions": {
+    "recommendations": []
+  }
+}

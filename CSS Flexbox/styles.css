@@ -1,0 +1,79 @@
+#box-container {
+  background-color: rgb(216, 200, 180);
+  height: 400px;
+  width: 130px;
+  /* display:flex; allows the users to use other flex
+    properties to build responsive pages */
+  display: flex;
+  /* justify-content: <attribute>; adjusts the conents of the
+    child elements accoring to the main axis that is across the 
+    horizonatal-center line of the parent class */
+  justify-content: center;
+  /* flex-direction: row-reverse; note that this command
+    appearing in the parent tag will make the children tags
+    align themselves into rows or columns. the default value of
+    flex-direction is row. reverse-row just reverses the order of the
+    tags in the row */
+  flex-direction: row-reverse;
+  /* flex-wrap: wrap; allows the creation of two rows/columns depedning
+  on the size of the container */
+  flex-wrap: wrap;
+}
+#box-1 {
+  background-color: darkorchid;
+  height: 200px;
+  width: 50px;
+  color: white;
+}
+#box-2 {
+  background-color: darkred;
+  height: 200px;
+  width: 50px;
+  color: rgb(255, 255, 255);
+}
+#box-3 {
+  background-color: rgb(217, 230, 48);
+  height: 200px;
+  width: 50px;
+  color: rgb(0, 0, 0);
+}
+/* 2nd box container below */
+#box-container2 {
+  background: gray;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  /* align-items: <attribute>; adjusts the conents of the
+  child elements accoring to the main axis that is across the 
+  vertical-center line of the parent class */
+}
+#box-4 {
+  background-color: dodgerblue;
+  width: 200px;
+  font-size: 24px;
+  flex-grow: 1;
+  order: 2;
+  align-self: flex-end;
+  /* align-self: <>; allows the ability to override align-items property in
+  the flex container and be used in child flex items to change them 
+  individually */
+}
+#box-5 {
+  background-color: orangered;
+  width: 200px;
+  font-size: 18px;
+  margin: 50px 0px 50px auto;
+  flex-grow: 2;
+  /* margin: top(px) right(px) bottom(px) left(px) And auto means 
+  that the left/right margin are automatically set based on the 
+  container. If your element is a block type element, meaning it 
+  is a box and takes up the entire width of the view, then auto sets 
+  the left and right margin the same and hence the element is centered.
+  */
+  order: 1;
+  /* order specifies whihc element goes first and can be used to 
+  overide the cascading element principle of HTML. Since box 5 is 1
+  and box 4 is 2, then box 5 wil come first even tho box 4 was written 
+  first in the HTML*/
+  align-self: flex-start;
+}

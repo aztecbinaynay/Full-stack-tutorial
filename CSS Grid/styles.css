@@ -1,0 +1,121 @@
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink;}
+.d5{
+    background:PaleGreen;
+    grid-column: 2/ 4;
+    /* grid-column: 2/4; allows us to control the items
+    themselves in the grid container
+    notice how by using the grid-template-columns; in
+    the container class we have created three columns
+    The grid container has vertical and horizontal lines
+    that seperate the items into cells
+    the first line is at beginning and the last is at 
+    the end, there for if you have a 3x3 row and column this means 
+    you have 4 lines vertically and 4 line horizontaly
+    that seperate those cells
+    --------------
+    | 1 | 2 | 3 |
+    --------------
+    | 4 | 5 | 6 |
+    -------------
+    | 7 | 8 | 9 |
+    -------------
+    */
+    grid-row: 2/4; 
+    /* consume the last two cells in the last row. */
+}
+
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: rgb(216, 196, 196);
+    display: grid;
+    /* like flex boxes, the display grid will allow
+    us to use other properties related to CSS grid 
+    which allows us to control the items (children)
+    int he parent container */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: _px _px; allows us to create
+    columns in that container the number of which depdens on
+    the number of parameters in the property. the parameters
+    dictate how wide the grid is*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* to determine the number of rows in a table for CSS grid
+    use the property above to determine number of rows and 
+    width of said rows */
+    /* grid-column-gap: 20px; */
+    /* code above create a 20px gap wide between the columns
+    */
+    /* grid-row-gap: 20px; */
+    /* code above create a 20px gap wide between the rows 
+    */
+    grid-gap: 10px;
+    /* Using grid-gap: _px _px; will adjust the gaps for columns 
+    using the 2nd parameter and the rows using the 1st parameter
+    .Puttin only value will apply the value gap for both
+    rows and columns. */
+}
+
+.d6{background:LightSkyBlue;}
+.d7{
+    background:LightSalmon;
+    justify-self: center;
+    /* places the item in center of the cell
+    Note that oher values could be start, stretch, end
+    and center */
+}
+.d8{
+    background:PaleTurquoise;
+    align-self: center;
+    /* allows for the item to be aligned vertically.
+    You can essentially move an item up or down in its
+    cell */
+}
+.d9{background:LightPink;}
+.d10{background:PaleGreen;}
+
+.container2 {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: rgb(216, 196, 196);
+    display: grid;
+    /* like flex boxes, the display grid will allow
+    us to use other properties related to CSS grid 
+    which allows us to control the items (children)
+    int he parent container */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: _px _px; allows us to create
+    columns in that container the number of which depdens on
+    the number of parameters in the property. the parameters
+    dictate how wide the grid is*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* to determine the number of rows in a table for CSS grid
+    use the property above to determine number of rows and 
+    width of said rows */
+    /* grid-column-gap: 20px; */
+    /* code above create a 20px gap wide between the columns
+    */
+    /* grid-row-gap: 20px; */
+    /* code above create a 20px gap wide between the rows 
+    */
+    grid-gap: 10px;
+    /* Using grid-gap: _px _px; will adjust the gaps for columns 
+    using the 2nd parameter and the rows using the 1st parameter
+    .Puttin only value will apply the value gap for both
+    rows and columns. */
+    justify-items: center;
+    /* allows to justify all items or manipulate all child
+    items by manipulating the parent container's calss
+    NOTE: align-items: <>; also manipulates all child
+    containers all at once*/
+}
+
+.d11{background:LightSkyBlue;} 
+.d12{background:LightSalmon;}
+.d13{background:PaleTurquoise;}
+.d14{background:LightPink;}
+.d15{background:PaleGreen;}

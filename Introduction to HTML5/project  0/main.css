@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+  font-style: italic;
+  font-size: 100px;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+p {
+  font-size: 20px;
+  color: pink;
+}
