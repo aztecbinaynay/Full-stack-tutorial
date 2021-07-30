@@ -1,0 +1,65 @@
+/* selector for ALL elements */
+
+* {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+header {
+  margin: 0px 10px 10px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1476108621677-3c620901b5e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80);
+  /* no-repat makes the image not repeat */
+  background-repeat: no-repeat;
+  /* cover value fits the image to the entire screen */
+  background-size: cover;
+}
+
+h2 + p:hover {
+  color: mediumvioletred;
+  font-size: 50px;
+  text-align: center;
+  border: 5px solid rgba(128, 0, 128, 0.178);
+  cursor: pointer;
+}
+
+.active {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  /* remove the dot of the lists */
+  list-style: none;
+  /* makes the elements into a horizontal block */
+  display: inline-block;
+}
+
+#div1 {
+  background: rgba(0, 0, 255, 0.096);
+}
+
+#div2 {
+  background: rgba(255, 0, 0, 0.185);
+}
+
+/* NOTES */
+
+/* element, element {} modifies both the elements regardless of their heirarchial association with each other*/
+
+/* element element {} will modify the element that is inside a certain element. h2 p {} will modify the <p> tags in h2 but NOT h2 itself. The direct parent of p does not have to be h2 as long as p is within h2 */
+
+/* element > element {} like h2 > p {} will modify p if h2 is p's DIRECT parent tag */
+
+/* element + element will modify the elemnt after a certain element: h2 + p {} will modify the next p after h2.*/
+
+/* element:hover {} will modify the element when the cursor hovers over it */
+
+/* element/selector: last-child {} means that if a number of elements that are the same or elements that have the same selector are present, only the last element or element containing a specific property value will acquire those modifications. */

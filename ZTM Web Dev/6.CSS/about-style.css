@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+header {
+  margin: 0px 10px 10px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1476108621677-3c620901b5e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80);
+  /* no-repat makes the image not repeat */
+  background-repeat: no-repeat;
+  /* cover value fits the image to the entire screen */
+  background-size: cover;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+img {
+  float: right;
+}
+
+footer {
+  /* usually used with float, when you don't want the element to be associated and changed by an image (or other elements) that use float because flat allows that element to wrap other elements around it */
+  clear: both;
+  text-align: center;
+}
+
+section > p {
+  color: navy;
+  font-size: 24px;
+  text-align: center;
+  border: 5px solid rgba(128, 0, 128, 0.178);
+  cursor: pointer;
+}
+
+/* fonts and text related properties */
+p {
+  text-decoration: underline;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  /* font from linked font at googlefonts.com */
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.active {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  /* remove the dot of the lists */
+  list-style: none;
+  /* makes the elements into a horizontal block */
+  display: inline-block;
+}
+
+#div1 {
+  background: rgba(0, 0, 255, 0.096);
+}
+
+#div2 {
+  background: rgba(255, 0, 0, 0.185);
+}

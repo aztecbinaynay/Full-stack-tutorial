@@ -1,0 +1,3 @@
+section covers many things about css like concepts about selectors,hierarchy, fonts, etc...
+
+also include info on images

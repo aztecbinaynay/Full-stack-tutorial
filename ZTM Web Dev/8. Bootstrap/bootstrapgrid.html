@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="bootstrapgrid.css" />
+</head>
+
+<body>
+
+    <!-- the col-lg/sm/md-(1 to 12) determines how much space (total of 12) each col will get in relation to the size of the browser. Having col-sm-6 col-sm-3 col-sm-3 means that if the browser is at small, the first column will occupy 6/12 spaces...while the two other colums will occupy 3/12 spaces. Occupying a total space of more than 12 will result in having that the last column be on another line -->
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-6 col-md-12 col-lg-12">
+                Column
+            </div>
+            <div class="col col-sm-3 col-md-6 col-lg-12">
+                Column
+            </div>
+            <div class="col col-sm-3 col-md-6 col-lg-12">
+                Column
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

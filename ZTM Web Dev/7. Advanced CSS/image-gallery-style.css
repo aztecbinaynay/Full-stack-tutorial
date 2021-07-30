@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  /* flex-wrap: wrap; wraps an image into one line and is responsive as the view port becomes smaller*/
+  flex-wrap: wrap;
+  /* centers objects in the horizontal line */
+  justify-content: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  /* em is relative to the font size. the font size now using 3em is going to be 3x the size of the defaul font size of fantasy. Such a thing is good for responsiveness because pixels are more absolute. */
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  /* width changes the container size so that our border at the bottom does not stretch until the end of the webpage */
+  width: 400px;
+  text-align: center;
+  border-right: 2px solid pink;
+  box-shadow: 5px 10px lightslategray;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  /* all transitions applied to this element is going to happen within 1 second */
+  transition: all 1s;
+}
+
+img:hover {
+  /* grow the image by 10 percent its original size */
+  transform: scale(1.1);
+}
