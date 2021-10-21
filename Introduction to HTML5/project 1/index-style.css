@@ -11,7 +11,8 @@ to change the colors */
 }
 
 body {
-  background-color: white;
+  /* background-color: white; */
+  background: linear-gradient(to right, #ffb900, #005581);
 }
 
 body::before {
@@ -178,25 +179,14 @@ p {
   text-align: left;
 }
 
-.TIP {
+#TIP {
   color: #080a09;
-  text-decoration: none;
-  background-color: #f2ec1a;
-  padding-top: 2px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: bold;
 }
 
-.TIP:hover {
+#TIP:hover {
   color: #f2ec1a;
-  background-color: #080a09;
-  padding-top: 2px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: bold;
+  /* background-color: #080a09; */
+  /* font-style: italic; */
 }
 
 .registration {

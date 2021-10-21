@@ -14,9 +14,10 @@
     "python.pythonPath": "c:\\Users\\core i5\\Desktop\\GitHub\\DataScience\\.pyvenv\\Scripts\\python.exe",
     "LivePreview.multiroot.serverWorkspace": "c:\\Users\\core i5\\Desktop\\GitHub\\Full-stack tutorial",
     "livePreview.defaultPreviewPath": "c:\\Users\\core i5\\Desktop\\GitHub\\Full-stack tutorial\\ZTM Web Dev\\9 Css + Css layout\\index.html",
-    "json.schemas": [
-    
-    ]
+    "json.schemas": [],
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.formatting.provider": "black"
   },
   "extensions": {
     "recommendations": []
